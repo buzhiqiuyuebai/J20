@@ -1,0 +1,59 @@
+-------------------------------------------------------
+Version       : 4.8.4
+License       : GNU General Public License
+Build OS      : Windows64
+Build date    : 20210428
+Build host    : gmsh.info
+Build options : 64Bit ALGLIB ANN Bamg Blas[petsc] Blossom Cgns DIntegration DomHex Eigen Fltk Gmm Hxt Jpeg[fltk] Kbipack Lapack[petsc] MathEx Med Mesh Metis Mmg Mpeg Netgen NoSocklenT ONELAB ONELABMetamodel OpenCASCADE OpenCASCADE-CAF OpenGL OptHom PETSc Parser Plugins Png[fltk] Post QuadTri Solver TetGen/BR Voro++ Zlib[fltk]
+FLTK version  : 1.4.0
+PETSc version : 3.9.3 (real arithmtic)
+OCC version   : 7.6.0
+MED version   : 4.1.0
+Packaged by   : nt authority system
+Web site      : https://gmsh.info
+Issue tracker : https://gitlab.onelab.info/gmsh/gmsh/issues
+-------------------------------------------------------
+Info    : Running 'E:\software\gmsh\gmsh-4.8.4-Windows64\gmsh.exe C:\Users\chaoxinchen\Desktop\J20.nas' [Gmsh 4.8.4, 1 node, max. 1 thread]
+Info    : Started on Wed Nov 30 13:54:27 2022
+Info    : Reading 'C:\Users\chaoxinchen\Desktop\J20.nas'...
+Info    : 235987 nodes
+Info    : Done reading 'C:\Users\chaoxinchen\Desktop\J20.nas'
+Info    : Reading 'C:\Users\chaoxinchen\Desktop\J20.geo'...
+Info    : Reading 'C:\Users\chaoxinchen\Desktop\J20.nas'...
+Info    : 235987 nodes
+Info    : Done reading 'C:\Users\chaoxinchen\Desktop\J20.nas'
+Info    : Done reading 'C:\Users\chaoxinchen\Desktop\J20.geo'
+Info    : Calling 'notepad.exe 'C:\Users\chaoxinchen\Desktop\J20.geo''
+Info    : Calling 'notepad.exe 'C:\Users\chaoxinchen\Desktop\J20.geo''
+Info    : Meshing 1D...
+Info    : Done meshing 1D (Wall 0s, CPU 0s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (Wall 0s, CPU 0s)
+Info    : 235765 nodes 238313 elements
+Info    : Meshing 1D...
+Info    : Done meshing 1D (Wall 0s, CPU 0s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (Wall 0s, CPU 0s)
+Info    : Meshing 3D...
+Info    : 3D Meshing 1 volume with 1 connected component
+Info    : Tetrahedrizing 468978 nodes...
+Info    : Done tetrahedrizing 468986 nodes (Wall 16.3108s, CPU 16.1719s)
+Info    : Reconstructing mesh...
+Info    :  - Creating surface mesh
+Info    :  - Identifying boundary edges
+Info    :  - Recovering boundary
+Error   : PLC Error:  A segment and a facet intersect at point
+Info    :  (-18008.5,2535.18,241.673).
+Info    :   Segment: [33360,35356] #-1 (0)
+Info    :   Facet:   [75249,100494,75250] #0
+Error   : Invalid boundary mesh (segment-facet intersection) on, intersection (-18008.5,2535.18,241.673)
+Error   : No elements in volume 1 
+Info    : Done meshing 3D (Wall 26.5134s, CPU 25.8906s)
+Info    : 235765 nodes 238313 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     3 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing 'C:\Users\chaoxinchen\Desktop\J20error'...
